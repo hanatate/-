@@ -18,13 +18,13 @@
         text-align: center;
         line-height: 100px;
       }
-      .太いね{
+      .はずれ{
         background: pink;
         border-radius: 50%;
         transform: rotate(360deg);
       
       }
-      .無知乙{
+      .あたり{
         transform: scale(0.9);
       }
     </style>
@@ -44,11 +44,11 @@
 
       div.addEventListener('click', () => {
         if (i === winner){
-          div.textContent = '太いね';
-          div.classList.add('太いね');
+          div.textContent = 'はずれ';
+          div.classList.add('はずれ');
         } else {
-          div.textContent = '無知乙';
-          div.classList.add('無知乙');
+          div.textContent = 'あたり';
+          div.classList.add('あたり');
         }
       });
 
